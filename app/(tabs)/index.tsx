@@ -1,12 +1,17 @@
-import {FlatList, Image, Pressable, Text, TouchableOpacity, View} from "react-native";
+import {Button, FlatList, Image, Pressable, Text, TouchableOpacity, View} from "react-native";
 import "../globals.css"
 import {SafeAreaView} from "react-native-safe-area-context";
 import {images, offers} from "@/constants";
 import {Fragment} from "react";
 import cn from 'clsx';
 import CartButton from "@/components/CartButton";
+import * as Sentry from "@sentry/react-native";
+import useAuthStore from "@/store/auth.store";
 
 export default function Index() {
+    const { user } = useAuthStore();
+
+
     return (
         <SafeAreaView className="flex-1 bg-white">
 
@@ -47,9 +52,9 @@ export default function Index() {
                 ListHeaderComponent={() => (
                     <View className="flex-between flex-row w-full my-5">
                         <View className="flex-start">
-                            <Text className="small-bold text-primary">DELIVER TO</Text>
+                            <Text className="small-bold text-primary"> DELIVER TO</Text>
                             <TouchableOpacity className="flex-center flex-row gap-x-1 mt-0.5">
-                                <Text className="paragraph-bold text-dark-100">Ethiopia</Text>
+                                <Text className="paragraph-bold text-dark-100">Ethiopia </Text>
                                 <Image source={images.arrowDown} className="size3" resizeMode="contain" />
                             </TouchableOpacity>
                         </View>
