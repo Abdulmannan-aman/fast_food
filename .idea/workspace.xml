@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3919d49-e907-47c4-ab21-9c331379f7ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CustomButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CustomInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/useAppwrite.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CartButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CartButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -45,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:8081.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -64,10 +59,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdul\WebstormProjects\fast_food" />
       <recent name="C:\Users\Abdul\WebstormProjects\fast_food\app\(tabs)" />
       <recent name="C:\Users\Abdul\WebstormProjects\fast_food\app" />
-      <recent name="C:\Users\Abdul\WebstormProjects\fast_food" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:8081" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:8081" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -96,7 +101,25 @@
       <workItem from="1760117166536" duration="1165000" />
       <workItem from="1760191321470" duration="2864000" />
       <workItem from="1760257020990" duration="9653000" />
-      <workItem from="1760416071367" duration="11888000" />
+      <workItem from="1760416071367" duration="18901000" />
+      <workItem from="1760466860619" duration="1972000" />
+      <workItem from="1760511346759" duration="3965000" />
+      <workItem from="1760524866160" duration="219000" />
+      <workItem from="1760530693373" duration="5777000" />
+      <workItem from="1760595339658" duration="8860000" />
+      <workItem from="1760613997839" duration="6789000" />
+      <workItem from="1760708907079" duration="4465000" />
+      <workItem from="1760773682527" duration="504000" />
+      <workItem from="1760775449078" duration="7438000" />
+      <workItem from="1760858529398" duration="11051000" />
+      <workItem from="1760937942865" duration="8966000" />
+      <workItem from="1760950328970" duration="2106000" />
+      <workItem from="1760959633139" duration="2792000" />
+      <workItem from="1761119066396" duration="29000" />
+      <workItem from="1761119298271" duration="10048000" />
+      <workItem from="1761207843433" duration="10074000" />
+      <workItem from="1761281756126" duration="10230000" />
+      <workItem from="1761394440790" duration="474000" />
     </task>
     <servers />
   </component>

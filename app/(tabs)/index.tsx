@@ -7,9 +7,20 @@ import cn from 'clsx';
 import CartButton from "@/components/CartButton";
 import * as Sentry from "@sentry/react-native";
 import useAuthStore from "@/store/auth.store";
+// import { useEffect } from 'react';
 
 export default function Index() {
     const { user } = useAuthStore();
+
+
+
+    // useEffect(() => {
+    //     fetch('https://fra.cloud.appwrite.io/v1/health')
+    //         .then(res => res.json())
+    //         .then(console.log)
+    //         .catch(console.error);
+    // }, []);
+
 
 
     return (
